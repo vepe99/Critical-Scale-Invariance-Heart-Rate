@@ -5,10 +5,12 @@
 In this project you will analyse from a physics perspective time series of human heart rate. You will demonstrate the robust scale-invariance in the probability density function (PDF) of detrended healthy human heart rate increments. Moreover, you will show that such increments are not Gaussian distributed, but they display fat tails. This scale-independent and fractal structure supports the view that a healthy human heart rate is controlled to converge continually to a critical state.
 
 ### Final result
-The complete result can be found in the 'Critical-Scale-Invariance-LCP-Group2.ipynb' file in the main branch.
+The complete result can be found in the `Critical-Scale-Invariance-LCP-Group2.ipynb` file in the main branch.
+As a optional work, an attempt to implement the Detrended fluctuation analysis (DFA) has been done in the `CleanCode_Combined.ipynb` in the branch giuseppe. This analysis doesn't agree with the theory (reference 2), since healty and unhealty patients data show the same trend. 
 
 ### Original reference
-[Critical Scale Invariance in a Healthy Human Heart Rate, Kiyono, Oct 2004](https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.93.178103)
+1. [Critical Scale Invariance in a Healthy Human Heart Rate, Kiyono, Oct 2004](https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.93.178103)
+2. [Quantification of scaling exponents and crossover phenomena in nonstationary heartbeat time series, C.-K. Peng](https://aip.scitation.org/doi/pdf/10.1063/1.166141)
 
 ### Assignment steps
 1. Build the cumulative time series $B(i)$ from the detrended and normalised heart beat time series $b(i)$

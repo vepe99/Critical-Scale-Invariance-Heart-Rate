@@ -6,7 +6,7 @@ In this project you will analyse from a physics perspective time series of human
 
 ### Final result
 The complete result can be found in the `Critical-Scale-Invariance-LCP-Group2.ipynb` file in the main branch.
-As a optional work, an attempt to implement the Detrended fluctuation analysis (DFA) has been done in the `CleanCode_Combined.ipynb` in the branch giuseppe. This analysis doesn't agree with the theory (reference 2), since healty and unhealty patients data show the same trend. 
+As an optional work, an attempt to implement the Detrended fluctuation analysis (DFA) has been done in the `CleanCode_Combined.ipynb` in the branch giuseppe. This analysis doesn't agree with the theory (reference 2), since healty and unhealty patients data show the same trend. 
 
 ### Original reference
 1. [Critical Scale Invariance in a Healthy Human Heart Rate, Kiyono, Oct 2004](https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.93.178103)
